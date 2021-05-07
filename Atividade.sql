@@ -21,5 +21,6 @@ nome varchar(40) NOT NULL,
 creditos tinyint check(idade between 2 and 8))
 
 CREATE TABLE Curriculos (
-curso CONSTRAINT fkCod FOREIGN KEY (codigo) REFERENCES Cursos ON UPDATE CASCADE
+curso CONSTRAINT fkCod FOREIGN KEY (codigo) REFERENCES Cursos ON UPDATE CASCADE,
+--Teste
 )
